@@ -5,5 +5,6 @@ import Hero from '../components/Hero';
 export default () => (
   <Hero >
     <Header/>
+    aa
   </Hero>
   )
