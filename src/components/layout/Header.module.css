@@ -6,7 +6,7 @@
   padding:0 2rem;
 }
 
-.Link, .button, .logo{
+.Link, .button{
   font-size:1.4rem;
   display:flex;
   flex-direction:row;
@@ -25,17 +25,18 @@
   border-radius:var(--radius);
 }
 
-.button:hover{
-
-}
-
 .Link:hover, .button:hover{
   transform:translateY(-10px);
 }
 
-img{
+.logo{
+  display:flex;
+  text-decoration:none;
+  justify-content: center;
+  align-items: center;
   padding-right:1rem;
-  max-width:60px
+  max-height:62px;
+  color:inherit;
 }
 
 ul{

@@ -3,7 +3,7 @@ import Layout from '../components/layout/Layout'
 import Intro from '../components/Intro';
 import Hero from '../components/layout/Hero';
 import Header from '../components/layout/Header';
-import About from '../components/About';
+import Footer from '../components/layout/Footer';
 
 const index = () => {
   return (
@@ -11,7 +11,9 @@ const index = () => {
       <Hero>
         <Header/>
         <Intro/>
+        
       </Hero>
+      <Footer/>
     </Layout>
   )
 }

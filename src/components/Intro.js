@@ -11,7 +11,7 @@ const Intro = () => {
         Des logements au coeur de Saint-Malo et à Hirel
         sur la baie du Mont Saint-Michel
         </h1>
-        <AniLink paintDrip to="/logements" className={styles.Link}>
+        <AniLink paintDrip to="/logements" hex="312782" className={styles.Link}>
           Voir Les Logements
         </AniLink>
       </div>

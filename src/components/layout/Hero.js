@@ -3,6 +3,7 @@ import BackgroundImage from 'gatsby-background-image';
 import {useStaticQuery, graphql} from 'gatsby';
 import styles from './Hero.module.css';
 
+
 const Hero = ({children}) => {
   const data = useStaticQuery(
     graphql`

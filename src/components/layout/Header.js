@@ -8,15 +8,15 @@ const Header = () => {
   return (
     <div className={styles.navbar}>
       <AniLink fade to="/" className={styles.logo}>
-        <img src={logo} alt="logo parenthese-iodee"/>
+        <img src={logo} alt="logo parenthese-iodee" className={styles.logo}/>
         <p>Parenthese Iodée</p>
       </AniLink>      
       <div>
         <ul>
           <li><AniLink fade to="/apropos" className={styles.Link}>A propos</AniLink></li>
-          <li><AniLink paintDrip to="/contact" className={styles.Link}>Contact</AniLink></li>
-          <li><AniLink paintDrip to="/activites" className={styles.Link}>Activités</AniLink></li>
-          <li><AniLink paintDrip to="/logements" className={styles.button}>Logements</AniLink></li>
+          <li><AniLink paintDrip to="/contact" className={styles.Link} hex="312782">Contact</AniLink></li>
+          <li><AniLink paintDrip to="/activites" className={styles.Link} hex="312782">Activités</AniLink></li>
+          <li><AniLink paintDrip to="/logements" className={styles.button} hex="312782">Logements</AniLink></li>
         </ul>
       </div>
     </div>
