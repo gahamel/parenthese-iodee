@@ -1,19 +1,21 @@
 import React from 'react'
-import {Link} from 'gatsby'
+import AniLink from 'gatsby-plugin-transition-link/AniLink';
 import styles from './Intro.module.css'
+
 
 const Intro = () => {
   return (
-    <div className={styles.intro}>
-      <h1>
-      Des logements au coeur de Saint-Malo et à Hirel
-      sur la baie du Mont Saint-Michel
-      </h1>
-      <Link to="/" activeClassName={styles.Link}>
-        Voir les logements
-      </Link>
-
-
+    <div className={styles.container}>
+      <div className={styles.intro}>
+        <h1>
+        Des logements au coeur de Saint-Malo et à Hirel
+        sur la baie du Mont Saint-Michel
+        </h1>
+        <AniLink paintDrip to="/logements" className={styles.Link}>
+          Voir Les Logements
+        </AniLink>
+      </div>
+      <div className={styles.size1}></div>
     </div>
   )
 }

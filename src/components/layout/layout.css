@@ -1,6 +1,8 @@
 :root{
   --bleu:rgb(49,39,130);
   --gris:rgb(221,221,221);
+  --transi:0.5s all ease;
+  --radius:26px;
 }
 
 *, *:before, *:after {
@@ -18,4 +20,10 @@ body{
 h1{
   text-align:center;
 
+}
+
+main{
+  display:flex;
+  min-height:100vh;
+  flex-direction:column;
 }
