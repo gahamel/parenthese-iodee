@@ -1,0 +1,26 @@
+.container{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  
+}
+
+.list{
+  list-style:none;
+  text-align:center;
+  width:20vw;
+  height:50vh;
+  border:1px solid var(--gris);
+  border-radius:var(--radius);
+  transition:var(--transi)
+}
+
+.list:hover{
+  transform:translateY(-10px);
+  box-shadow: 5px 5px 5px var(--gris)
+}
+
+.icon{
+  font-size:3em;
+}

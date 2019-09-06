@@ -1,0 +1,18 @@
+.hidden{
+  transform: translateY(-30px);
+  visibility: hidden;
+  display:none;
+}
+
+.show{
+  transition: var(--transi);
+  visibility:visible;
+}
+
+.show, .hidden {
+  z-index: -2;
+}
+
+.question .show {
+  color:red;
+}

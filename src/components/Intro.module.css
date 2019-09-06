@@ -24,7 +24,7 @@
   font-size:2rem;
   text-decoration:none;
   background-color:var(--bleu);
-  border-radius:26px;
+  border-radius:var(--radius);
   transition:var(--transi)
 }
 

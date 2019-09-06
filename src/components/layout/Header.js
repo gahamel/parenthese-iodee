@@ -16,7 +16,7 @@ const Header = () => {
           <li><AniLink fade to="/apropos" className={styles.Link}>A propos</AniLink></li>
           <li><AniLink paintDrip to="/contact" className={styles.Link} hex="312782">Contact</AniLink></li>
           <li><AniLink paintDrip to="/activites" className={styles.Link} hex="312782">Activités</AniLink></li>
-          <li><AniLink paintDrip to="/logements" className={styles.button} hex="312782">Logements</AniLink></li>
+          <li><AniLink PaintDrip to="/logements" className={styles.button} hex="312782">Logements</AniLink></li>
         </ul>
       </div>
     </div>
