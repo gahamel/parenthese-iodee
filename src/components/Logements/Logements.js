@@ -1,8 +1,8 @@
 import React from 'react';
-import carte from '../images/plan-des-logements-sur-la-cote.png';
+import carte from '../../images/plan-des-logements-sur-la-cote.png';
 import styles from './Logements.module.css';
-import zenith from '../images/zenith/salon-lar-zenith.jpg'
-import bisquine from '../images/bisquine/Salon-La-bisquine.jpg'
+import zenith from '../../images/zenith/salon-lar-zenith.jpg'
+import bisquine from '../../images/bisquine/Salon-La-bisquine.jpg'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 const Logements = () => {

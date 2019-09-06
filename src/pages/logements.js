@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import Header from '../components/layout/Header';
-import Logements from '../components/Logements';
+import Logements from '../components/Logements/Logements';
 
 const logements = () => {
   return (
