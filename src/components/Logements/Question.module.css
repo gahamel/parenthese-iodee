@@ -11,8 +11,8 @@
 
 .show, .hidden {
   z-index: -2;
+  width:80vw;
 }
 
 .question .show {
-  color:red;
 }

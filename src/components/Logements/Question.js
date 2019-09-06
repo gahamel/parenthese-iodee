@@ -3,14 +3,14 @@ import styles from './Question.module.css'
 
 
 const Question = ({link}) => {
-  const[hidden, setHidden] = useState(true)
+  const[hidden, setHidden] = useState(false)
   const appear = () => {
     setHidden(!hidden)
   }
   return (
     <>
-      <h1 onClick={appear} className={styles.question}>{link.question}</h1>
-      <p className={hidden? styles.show : styles.hidden}>{link.reponse}</p>
+      <h2 onClick={appear} className={styles.question}>{link.question}</h2>
+      <h3 className={hidden? styles.show : styles.hidden}>{link.reponse}</h3>
     </>
   )
 }
