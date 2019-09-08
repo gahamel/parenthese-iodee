@@ -16,6 +16,14 @@ const Logements = () => {
       </p>
       <br/>
       <img src={carte} alt="plan cote emeraude" className={styles.carte}/>
+
+      <h1>
+        Habiter au bord de mer
+      </h1>
+      <p>
+        En famille ou entre amis, nous vous proposons des logements modernes et entièrements équipés pour vous accueillir.
+      </p>
+
       <section className={styles.section}>
         <AniLink fade to="/zenith" className={styles.link}>
           <h3 className={styles.button}>Ar Zenith</h3>

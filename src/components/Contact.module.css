@@ -1,9 +1,10 @@
 .container{
+  align-self:center;
   display:flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  max-width:80vw;
-  margin-bottom:10vh;
+  width:80vw;
+  margin:10vh 0;
 }
 
 .block{
@@ -21,10 +22,12 @@
 }
 
 .formControl{
+  text-align: start;
   margin:1rem 0;
-  width:100%;
+  width:80%;
   border: 1px solid var(--gris);
   border-radius:0.25rem;
+  padding: 1% 0 1% 1%;
 }
 
 label{
@@ -40,14 +43,14 @@ textarea{
 }
 
 .submit{
-
+  font-family:"Editor";
   width:50%;
-  cursor:pointer;
   transition:var(--transi);
   background-color:var(--bleu);
   color:white;
-
   border-radius:var(--radius);
+  border:0;
+  padding:2%;
 }
 
 .submit:hover{
@@ -58,5 +61,8 @@ textarea{
   .container{
     flex-direction: column;
     align-self:center;
+  }
+  .formControl{
+    width:80vw;
   }
 }

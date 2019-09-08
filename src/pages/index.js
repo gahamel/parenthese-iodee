@@ -1,5 +1,9 @@
 import React from 'react'
+
+
 import Layout from '../components/layout/Layout'
+import SEO from '../components/SEO/SEO';
+
 import Intro from '../components/Intro';
 import Hero from '../components/layout/Hero';
 import Header from '../components/layout/Header';
@@ -11,6 +15,7 @@ import Contact from '../components/Contact';
 const index = () => {
   return (
     <Layout>
+      <SEO/>
       <Hero>
         <Header/>
         <Intro/>

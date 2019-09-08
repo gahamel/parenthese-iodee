@@ -39,8 +39,18 @@
   flex:2;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:960px){
   .size1{
     display: none;
+  }
+  h1{
+    font-size:5rem
+  }
+}
+
+@media screen and (max-width:480px){
+
+  h1{
+    font-size:4rem;
   }
 }

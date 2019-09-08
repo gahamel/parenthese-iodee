@@ -9,12 +9,13 @@ const Header = () => {
     <div className={styles.navbar}>
       <AniLink fade to="/" className={styles.logo}>
         <img src={logo} alt="logo parenthese-iodee" className={styles.logo}/>
-        <p>Parenthese Iodée</p>
+        <p>Parenthèse Iodée</p>
       </AniLink>      
       <div>
         <ul>
           <li><AniLink fade to="/apropos" className={styles.Link}>A propos</AniLink></li>
           <li><AniLink fade to="/activites" className={styles.Link} hex="312782">Activités</AniLink></li>
+          <li><AniLink fade to="/blog" className={styles.Link} hex="312782">Blog</AniLink></li>
           <li><AniLink fade to="/contact" className={styles.Link} hex="312782">Contact</AniLink></li>
           <li><AniLink fade to="/logements" className={styles.button} hex="312782">Logements</AniLink></li>
         </ul>

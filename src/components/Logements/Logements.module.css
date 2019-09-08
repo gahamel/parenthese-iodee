@@ -13,6 +13,7 @@
 .section{
   display:flex;
   justify-content: center;
+  padding: 5vh 0;
 }
 
 .link p{
@@ -20,7 +21,7 @@
 }
 
 .link h3{
-  padding: 10% 10%;
+  padding: 1rem 2rem;
   width:auto;
   color:white;
   background:var(--bleu);

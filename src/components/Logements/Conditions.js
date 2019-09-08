@@ -11,8 +11,8 @@ const Conditions = () => {
             <div className={styles.icon}>
               {rule.icone}
             </div>
-            <p>{rule.titre}</p>
-            <h3>{rule.description}</h3>
+            <h3>{rule.titre}</h3>
+            <p>{rule.description}</p>
           </li>
         )
       })}
