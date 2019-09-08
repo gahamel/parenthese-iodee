@@ -1,6 +1,7 @@
 .container{
   align-self:center;
   display:flex;
+  height:100vh;
   width:100vw;
   color:white;
   justify-content: space-evenly;
@@ -45,13 +46,14 @@
   transform: translateY(-10px);
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:960px) {
   .container{
     flex-direction: column;
     padding-bottom:10vh;
   }
   .selfie{
     align-self:center;
+    margin-bottom:5vh;
     max-width:80vw;
   }
   .about{

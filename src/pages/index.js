@@ -11,6 +11,7 @@ import Footer from '../components/layout/Footer';
 import Logements from '../components/Logements/Logements';
 import About from '../components/About';
 import Contact from '../components/Contact';
+import Carte from '../components/Logements/Carte';
 
 const index = () => {
   return (
@@ -20,6 +21,7 @@ const index = () => {
         <Header/>
         <Intro/>
       </Hero>
+      <Carte />
       <Logements id="logements"/>
       <About />
       <Contact />
