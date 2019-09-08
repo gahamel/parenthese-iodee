@@ -11,8 +11,6 @@
 }
 
 .intro h1{
-  font-family:helvetica;
-  font-size:2.5rem;
   max-width:80%;
   text-shadow:1px 1px 1px rgba(0,0,0,0.5);
 }
@@ -39,4 +37,10 @@
 
 .size1{
   flex:2;
+}
+
+@media screen and (max-width:480px){
+  .size1{
+    display: none;
+  }
 }

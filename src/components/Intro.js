@@ -8,10 +8,10 @@ const Intro = () => {
     <div className={styles.container}>
       <div className={styles.intro}>
         <h1>
-        Des logements au coeur de Saint-Malo et à Hirel
-        sur la baie du Mont Saint-Michel
+        Votre Plus Beau Séjour<br/>
+        Au Bord De Mer
         </h1>
-        <AniLink paintDrip to="/logements" hex="312782" className={styles.Link}>
+        <AniLink fade to="/logements" hex="312782" className={styles.Link}>
           Voir Les Logements
         </AniLink>
       </div>

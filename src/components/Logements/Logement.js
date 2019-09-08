@@ -1,12 +1,12 @@
 import React from 'react'
-import zenith from '../../images/zenith/salon-lar-zenith.jpg'
-import bisquine from '../../images/bisquine/Salon-La-bisquine.jpg'
+import styles from './Logement.module.css'
 
-const Logement = () => {
+const Logement = ({titre,image}) => {
   return (
     <div>
-      <div>Logement a hirel</div>
-      <img src={zenith}/>
+      <h1>{titre}</h1>
+      <h3>Logement a hirel</h3>
+      <img src={image} alt={titre} className={styles.img}/>
     </div>
   )
 }

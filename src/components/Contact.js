@@ -6,10 +6,10 @@ const Contact = () => {
     <div className={styles.container}>
       <div className={styles.block}>
         <h2>
-          Hello
+          Nous contacter
         </h2>
         <h3>
-          Laissez nous un petit message et nous revenons vers vous au plus vite!
+          Vous pouvez nous contacter en utilisant le formulaire ci-joint.
         </h3>
       </div>
       <form action="https://formspree.io/gaetanhamelpro@gmail.com" method="POST" className={styles.form}>

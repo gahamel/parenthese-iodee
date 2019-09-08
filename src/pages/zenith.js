@@ -22,7 +22,7 @@ const zenith = () => {
   return (
     <Layout>
       <Header/>
-      <Logement />
+      <Logement/>
       <Conditions />
       <Equipements eqps={equipements} />
       <FAQ/>

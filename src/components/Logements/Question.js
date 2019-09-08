@@ -9,8 +9,8 @@ const Question = ({link}) => {
   }
   return (
     <>
-      <h2 onClick={appear} className={styles.question}>{link.question}</h2>
-      <h3 className={hidden? styles.show : styles.hidden}>{link.reponse}</h3>
+      <h3 onClick={appear} className={styles.question}>{link.question}</h3>
+      <p className={hidden? styles.show : styles.hidden}>{link.reponse}</p>
     </>
   )
 }

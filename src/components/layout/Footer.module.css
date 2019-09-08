@@ -1,0 +1,5 @@
+.footer{
+  background:var(--bleu);
+  min-height:50vh;
+  color:white;
+}

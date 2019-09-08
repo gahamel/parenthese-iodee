@@ -1,9 +1,10 @@
 import React from 'react'
+import styles from './Footer.module.css'
 
 const Footer = () => {
   return (
-    <div>
-      Made with ❤️️ par Gaétan Hamel
+    <div className={styles.footer}>
+      Parenthese Iodée
     </div>
   )
 }

@@ -5,6 +5,8 @@ import Hero from '../components/layout/Hero';
 import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
 import Logements from '../components/Logements/Logements';
+import About from '../components/About';
+import Contact from '../components/Contact';
 
 const index = () => {
   return (
@@ -14,7 +16,9 @@ const index = () => {
         <Intro/>
       </Hero>
       <Logements id="logements"/>
-      {/* <Footer/> */}
+      <About />
+      <Contact />
+      <Footer/>
     </Layout>
   )
 }

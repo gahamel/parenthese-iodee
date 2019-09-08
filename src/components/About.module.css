@@ -1,27 +1,31 @@
 .container{
+  margin:10vh 0;
+  align-self:center;
   display:flex;
-  flex-direction:row;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-  height:30vw;
-}
-
-.aboutLeft{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  flex:2;
-  min-height:100%
+  width:100vw;
+  color:white;
+  justify-content: space-between;
+  align-items: center;
+  background:var(--bleu);
 }
 
 .selfie{
-  max-width:20vw;
-  align-self:center;
-  border-radius:50%;
+  min-width:40%;
+  border-radius:100%;
+  padding:20%;
 }
 
 .about{
-  flex:3;
-  padding:0 2rem;
+  padding: 0 10%;
+}
+
+@media screen and (max-width:480px) {
+  .container{
+    flex-direction: column;
+    padding-bottom:10vh;
+  }
+  .selfie{
+    align-self:center;
+    max-width:80vw;
+  }
 }
