@@ -62,6 +62,7 @@ textarea{
   .container{
     flex-direction: column;
     align-self:center;
+    height:auto;
   }
   .block{
     padding-bottom:5vh;

@@ -50,6 +50,7 @@
   .container{
     flex-direction: column;
     padding-bottom:10vh;
+    height:auto;
   }
   .selfie{
     align-self:center;

@@ -14,3 +14,9 @@
   max-width:80vw;
   padding:5vh 0;
 }
+
+@media screen and (max-width:960px){
+  container{
+    height:auto;
+  }
+}
