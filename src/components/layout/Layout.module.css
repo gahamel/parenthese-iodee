@@ -3,9 +3,12 @@
   src: url("../../../static/fonts/Editor-Bold.ttf");
 }
 
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
 :root{
   --bleu:rgb(49,39,130);
-  --gris:rgb(221,221,221);
+  --gris:#F5F9FB;
+  --vert:#1e8263;
   --transi:0.5s all ease;
   --radius:26px;
 }
@@ -21,7 +24,6 @@
 body{
   display:block;
   font-family:"Editor";
-  color:var(--bleu);
 }
 
 h1{
@@ -31,11 +33,16 @@ h1{
 }
 
 h2{
-  font-size:4rem;
+  font-size:2.5rem;
+  text-transform: uppercase;
 }
 
 h3{
   font-size:2rem;
+}
+
+h5{
+  font-family:"Raleway"
 }
 
 
