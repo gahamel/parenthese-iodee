@@ -3,7 +3,7 @@ backend:
   repo: gahamel/parenthese-iodee
 media_folder: static/assets
 public_folder: assets
-collection:
+collections:
   - name: blog
     label: Blog
     folder: blog

@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from './Contact.module.css'
+import Button from '@material-ui/core/Button'
+import { Input } from '@material-ui/core';
 
 const Contact = () => {
   return (
@@ -25,9 +27,7 @@ const Contact = () => {
           <label htmlFor="message">Message</label>
           <textarea id="message" type="text" rows="10" name="message" placeholder="Votre message" className={styles.formControl}/>
         </div>
-        <div>
-          <input type="submit" value="Envoyer" className={styles.submit}/>
-        </div>
+            <Input type="submit" value="Envoyer" variant="containted" color="primary"/>
       </form>
     </div>
   )

@@ -4,7 +4,6 @@ import Header from '../components/layout/Header'
 import FAQ from '../components/Logements/FAQ'
 import Conditions from '../components/Logements/Conditions'
 import Equipements from '../components/Logements/Equipements'
-import Logement from '../components/Logements/Logement'
 
 const equipements = [
   "Wifi Gratuite",
@@ -22,7 +21,6 @@ const zenith = () => {
   return (
     <Layout>
       <Header/>
-      <Logement/>
       <Conditions />
       <Equipements eqps={equipements} />
       <FAQ/>

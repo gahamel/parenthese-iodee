@@ -5,13 +5,11 @@ import Layout from '../components/layout/Layout'
 import SEO from '../components/SEO/SEO';
 
 import Intro from '../components/Intro';
-import Hero from '../components/layout/Hero';
 import Footer from '../components/layout/Footer';
-import Logements from '../components/Logements/Logements';
+import Offre from '../components/Logements/Offre';
 import About from '../components/About';
 import Contact from '../components/Contact';
 import Carte from '../components/Logements/Carte';
-import {navigate} from '@reach/router';
 
 const index = () => {
 
@@ -21,7 +19,7 @@ const index = () => {
       <Header />
       <Intro/>
       <Carte />
-      <Logements/>
+      <Offre/>
       <About />
       <Contact />
       <Footer/>

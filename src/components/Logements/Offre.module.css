@@ -1,0 +1,36 @@
+.container{
+  align-self:center;
+  display:flex;
+  width:70%;
+  height:auto;
+  background-color: var(--gris);
+  padding:5vh;
+  border-radius:26px;
+  margin:5vh 0;
+  text-align:right;
+}
+
+.texte{
+  padding:5%;
+}
+
+.texte *{
+  flex:2;
+  text-align:right;
+  padding-bottom:1em;
+}
+
+
+.carte{
+  flex:1;
+  position:relative;
+  max-width:80%;
+  max-height:300px;
+  padding:5vh 0;
+}
+
+@media screen and (max-width:960px){
+  container{
+    height:auto;
+  }
+}
