@@ -20,6 +20,16 @@
   list-style:none;
 }
 
+.button{
+  transition:var(--transi)
+}
+
+
+.button:hover{
+  color:black;
+  background-color:lightgrey;
+}
+
 .menu, .button{
   display:flex;
   justify-content: center;

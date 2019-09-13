@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Header from '../components/layout/Header';
 import Layout from '../components/layout/Layout'
 import SEO from '../components/SEO/SEO';
 
@@ -16,7 +15,6 @@ const index = () => {
   return (
     <Layout>
       <SEO/>
-      <Header />
       <Intro/>
       <Carte />
       <Offre/>

@@ -29,7 +29,7 @@ const About = () => {
         </h2>
       </div>
       <div className={styles.about}>
-      <Img fluid={data.file.childImageSharp.fluid} className={styles.selfie} alt="profil"></Img>
+        <Img fluid={data.file.childImageSharp.fluid} className={styles.selfie} alt="profil"></Img>
         <p>
           <q>
           Parenthese Iodée est née d'une passion pour la baie du Mont-Saint Michel.
@@ -41,7 +41,6 @@ const About = () => {
           <strong>-Nicolas</strong>
         </p>
         <br/>
-        
       </div>
     </section>
   )

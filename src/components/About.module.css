@@ -12,9 +12,13 @@
 }
 
 .selfie{
-  min-width:20%;
+  min-width:30%;
   border-radius:100%;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.5)
+}
+
+.texte{
+  width:80%;
 }
 
 .texte *{
@@ -25,12 +29,12 @@
 .about{
   display:flex;
   width:100%;
-  justify-content: space-evenly;
-  align-items:center;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .about p{
-  width:50%;
+  width:60%;
 }
 
 .about *{
@@ -43,6 +47,9 @@
     flex-direction: column;
     padding-bottom:10vh;
     height:auto;
+  }
+  .about{
+    flex-direction:column;
   }
   .selfie{
     align-self:center;

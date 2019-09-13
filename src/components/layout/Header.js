@@ -3,10 +3,8 @@ import styles from './Header.module.css';
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import logo from '../../images/Logo-parenthese-iodee.png'
 import {Link} from 'gatsby'
-import { style } from '@material-ui/system';
 
 const Header = () => {
-
   return (
     <div className={styles.container}>
         <ul className={styles.list}>
@@ -18,7 +16,6 @@ const Header = () => {
         </div>
         <div className={styles.blanc}>        
           <Link to="#bretagne" className={styles.menu}>
-            <p>Menu</p>
           </Link>
         </div>
     </div>
