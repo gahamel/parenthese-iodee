@@ -1,13 +1,12 @@
-import React from 'react';
-import Layout from '../components/layout/Layout';
-import Header from '../components/layout/Header';
-import Logements from '../components/Logements/Logements';
+import React from 'react'
+import Header from '../components/layout/Header'
+import Layout from '../components/layout/Layout'
 
 const logements = () => {
   return (
     <Layout>
       <Header />
-      <Logements />
+      Logements
     </Layout>
   )
 }

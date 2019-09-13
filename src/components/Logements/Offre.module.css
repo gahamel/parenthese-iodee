@@ -7,7 +7,7 @@
   padding:5vh;
   border-radius:26px;
   margin:5vh 0;
-  text-align:left;
+  text-align:right;
 }
 
 .texte{
@@ -15,12 +15,17 @@
 }
 
 .texte *{
-  text-align:left;
+  flex:2;
+  text-align:right;
   padding-bottom:1em;
 }
 
+
 .carte{
+  flex:1;
+  position:relative;
   max-width:80%;
+  max-height:300px;
   padding:5vh 0;
 }
 
