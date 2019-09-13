@@ -46,6 +46,10 @@
   max-height:72px;
 }
 
+.image{
+  flex:1;
+}
+
 .logo{
   max-height:72px;
 }
@@ -62,7 +66,7 @@
 
 
 @media screen and (max-width:960px){
-  .list{
+  .list, .image, .menu p{
     display:none;
   }
 }

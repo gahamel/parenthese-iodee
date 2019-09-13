@@ -20,14 +20,16 @@ const About = () => {
   )
   return (
     <section className={styles.container}>
-      <Img fluid={data.file.childImageSharp.fluid} className={styles.selfie} alt="profil"></Img>
-      <div className={styles.about}>
+      <div className={styles.texte}>
         <h5>
           Le mot du patron
         </h5>
         <h2>
-        Bienvenue chez Parenthèse Iodée!
+          Bienvenue chez Parenthèse Iodée!
         </h2>
+      </div>
+      <div className={styles.about}>
+      <Img fluid={data.file.childImageSharp.fluid} className={styles.selfie} alt="profil"></Img>
         <p>
           <q>
           Parenthese Iodée est née d'une passion pour la baie du Mont-Saint Michel.
@@ -35,9 +37,11 @@ const About = () => {
           Je souhaite transformer votre séjour en véritable expérience.
           Pour cela je vous propose des expériences uniques dans le confort d'un logement à quelques minutes de la mer.
           </q>
+          <br/>
+          <strong>-Nicolas</strong>
         </p>
         <br/>
-        <strong>-Nicolas</strong>
+        
       </div>
     </section>
   )

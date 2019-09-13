@@ -1,33 +1,40 @@
 .container{
   align-self:center;
   display:flex;
+  flex-direction:column;
   width:70%;
   align-items: center;
-  justify-content: space-evenly;
-  padding: 5vh;
+  padding: 2vh;
+  margin: 5vh 0;
   color:white;
   background-color:var(--bleu);
   border-radius:26px;
 }
 
-.container *{
-  text-align:right;
-}
-
 .selfie{
-  width:20%;
+  min-width:20%;
   border-radius:100%;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.5)
 }
 
+.texte *{
+  text-align:left;
+  padding-bottom: 1em;
+}
+
 .about{
   display:flex;
-  flex-direction:column;
+  width:100%;
   justify-content: space-evenly;
-  width:40%;
+  align-items:center;
+}
+
+.about p{
+  width:50%;
 }
 
 .about *{
+  text-align:right;
   padding-bottom:1em;
 }
 
